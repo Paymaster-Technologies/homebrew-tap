@@ -1,6 +1,6 @@
 cask "secretkeeper" do
-  version "1.1.2,69"
-  sha256 "855c77537db1973d84ffd4f98878164f68ed7a3826fd1baabf3a0adef581419a"
+  version "1.1.4,74"
+  sha256 "5b94d5be351ecf8f4e3df1450faf11136d6e98edd332960b8d1c5cf41b1f8fb5"
 
   url "https://wm.mycdn.ink/secretkeeper/SecretKeeper-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Secret Keeper"
