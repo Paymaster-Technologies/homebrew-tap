@@ -1,13 +1,13 @@
-# paymastech/homebrew-tap
+# Paymaster-Technologies/homebrew-tap
 
 Homebrew casks for the macOS apps published by PayMaster Technologies and Tetatet.
 Same signed and notarized `.dmg` files as on the product sites, no modifications.
 
 ```sh
-brew install --cask paymastech/tap/secretkeeper   # Secret Keeper   https://secretkeeper.net
-brew install --cask paymastech/tap/tetatet        # Tetatet Chat    https://tetatet.net
-brew install --cask paymastech/tap/snipmarker     # Snip Marker     https://snipmarker.com
-brew install --cask paymastech/tap/inputfixer     # Input Fixer     https://inputfixer.com
+brew install --cask paymaster-technologies/tap/secretkeeper   # Secret Keeper   https://secretkeeper.net
+brew install --cask paymaster-technologies/tap/tetatet        # Tetatet Chat    https://tetatet.net
+brew install --cask paymaster-technologies/tap/snipmarker     # Snip Marker     https://snipmarker.com
+brew install --cask paymaster-technologies/tap/inputfixer     # Input Fixer     https://inputfixer.com
 ```
 
 ## Updates
