@@ -1,6 +1,6 @@
 cask "snipmarker" do
-  version "1.0.1,17"
-  sha256 "f6a9ae5932cab27254619c51c21a55d88b431cd3ee1433c1bc12c86b5cf51138"
+  version "1.1.0,23"
+  sha256 "f0ee72606c1622f132d2d0d9df9dc52a9f8d334fd242d4ac1af95ff6e7fa25fe"
 
   url "https://wm.mycdn.ink/secretkeeper/SnipMarker-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Snip Marker"
