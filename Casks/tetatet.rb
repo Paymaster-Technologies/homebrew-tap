@@ -1,6 +1,6 @@
 cask "tetatet" do
-  version "1.2.53,568"
-  sha256 "24f6915aacddb8517a463922e94b539fa1feebf398d84d0d4a2185a3a05de9f6"
+  version "1.2.53,569"
+  sha256 "7534e8e9e451b59913200f0b81710217aba5e5f4e4bedc71633b8b81100ae5c4"
 
   url "https://wm.mycdn.ink/secretkeeper/TetatetChat-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Tetatet Chat"
