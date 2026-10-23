@@ -1,8 +1,8 @@
 cask "inputfixer" do
-  version "1.1.6,42"
-  sha256 "87fcb11b5bf31af0f037174d5b350f3ea8c8e5388fc1d95a7d67a38b0a322c08"
+  version "1.1.16,52"
+  sha256 "42e14c190183a6d733cdc5de1541f86d7946ec95623a0d29c9908ed53d75b651"
 
-  url "https://wm.mycdn.ink/secretkeeper/InputFixer-#{version.csv.first}-#{version.csv.second}.dmg"
+  url "https://inputfixer.com/downloadfiles/InputFixer-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Input Fixer"
   desc "Fixes words typed in the wrong keyboard layout as you type"
   homepage "https://inputfixer.com/"
@@ -15,7 +15,7 @@ cask "inputfixer" do
   end
 
   auto_updates true
-  depends_on :macos
+  depends_on macos: :ventura
 
   app "Input Fixer.app"
 
