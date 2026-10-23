@@ -1,8 +1,8 @@
 cask "snipmarker" do
-  version "1.1.0,23"
-  sha256 "f0ee72606c1622f132d2d0d9df9dc52a9f8d334fd242d4ac1af95ff6e7fa25fe"
+  version "1.1.5,28"
+  sha256 "2e2dd718576fa89a97b5ff1cea9669c5ba49d254b46203e720797a7d4e7c5d28"
 
-  url "https://wm.mycdn.ink/secretkeeper/SnipMarker-#{version.csv.first}-#{version.csv.second}.dmg"
+  url "https://snipmarker.com/downloadfiles/SnipMarker-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Snip Marker"
   desc "Screenshot tool in the menu bar: select, annotate, copy or share"
   homepage "https://snipmarker.com/"
