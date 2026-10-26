@@ -1,8 +1,8 @@
 cask "tetatet" do
-  version "1.2.54,570"
-  sha256 "ad0b02ac1a0da403f0c1972fc0c43fc5c5dfc448f0f96e87e959295f4bc35658"
+  version "1.2.61,577"
+  sha256 "b17f1272b94ee5ebec9b58e4e95c20876f5517fb92e8111d7aaab5663707b1a8"
 
-  url "https://wm.mycdn.ink/secretkeeper/TetatetChat-#{version.csv.first}-#{version.csv.second}.dmg"
+  url "https://tetatet.app/downloadfiles/TetatetChat-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Tetatet Chat"
   desc "Private messenger with video calls, no phone number or email required"
   homepage "https://tetatet.net/"
@@ -15,7 +15,7 @@ cask "tetatet" do
   end
 
   auto_updates true
-  depends_on :macos
+  depends_on macos: :monterey
 
   app "Tetatet Chat.app"
 
