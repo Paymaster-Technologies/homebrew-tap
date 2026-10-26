@@ -1,6 +1,6 @@
 cask "inputfixer" do
-  version "1.1.17,53"
-  sha256 "482fd23eedeaea4ca34c8395e4854e9572979090f52648f7e640e7a16a942f8b"
+  version "1.1.18,54"
+  sha256 "9d31b8c74906ac2b6dac2784f28e9c3cd5f2a354b4beafe0326c3f090c81f9ac"
 
   url "https://inputfixer.com/downloadfiles/InputFixer-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Input Fixer"
