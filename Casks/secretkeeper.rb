@@ -1,6 +1,6 @@
 cask "secretkeeper" do
-  version "1.1.7,82"
-  sha256 "9751d87bfbdb71eb9f074fb84e0c14446166aedc79ff58f5fd96b6fba960fd23"
+  version "1.1.7,83"
+  sha256 "064af658bf525beb1011eaa9ff0aa251aa10ffd00dc54cb65df9620595719092"
 
   url "https://secretkeeper.net/downloadfiles/SecretKeeper-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Secret Keeper"
