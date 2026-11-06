@@ -1,6 +1,6 @@
 cask "tetatet" do
-  version "1.2.61,577"
-  sha256 "b17f1272b94ee5ebec9b58e4e95c20876f5517fb92e8111d7aaab5663707b1a8"
+  version "1.2.69,585"
+  sha256 "c4bd1b2e5bc34bb3d09687b17f3eb83f2db57e316855e6097df5eb76b5113d0d"
 
   url "https://tetatet.app/downloadfiles/TetatetChat-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Tetatet Chat"
