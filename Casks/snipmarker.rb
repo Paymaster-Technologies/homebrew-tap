@@ -1,6 +1,6 @@
 cask "snipmarker" do
-  version "1.1.5,29"
-  sha256 "2327e2adc03905ebec12980ace81fdbb6abc3de18b183705555570c31d35f035"
+  version "1.1.7,35"
+  sha256 "fd28dc0ef24b9b117f0dcc299c79185242c99da868d580f3a65a35d15ae6392b"
 
   url "https://snipmarker.com/downloadfiles/SnipMarker-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Snip Marker"
