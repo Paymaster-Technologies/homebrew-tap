@@ -1,6 +1,6 @@
 cask "tetatet" do
-  version "1.2.69,585"
-  sha256 "c4bd1b2e5bc34bb3d09687b17f3eb83f2db57e316855e6097df5eb76b5113d0d"
+  version "1.2.83,600"
+  sha256 "16e85baef1cdf69dc05c2997d52ae48687bb76ee5d00b6475dcba751eaec052d"
 
   url "https://tetatet.app/downloadfiles/TetatetChat-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Tetatet Chat"
@@ -8,7 +8,7 @@ cask "tetatet" do
   homepage "https://tetatet.net/"
 
   livecheck do
-    url "https://secretkeeper.net/tetatet-downloads.json"
+    url "https://tetatet.app/tetatet-downloads.json"
     strategy :json do |json|
       "#{json["version"]},#{json["build"]}"
     end
